@@ -4,10 +4,10 @@
     border-bottom: 1px solid #ccc;
     padding: 10px;
     }
-    .Item-image {
+    .Item-image .imge{
     width: 64px;
     height: 64px;
-    border: 1px solid #ccc;
+    border: 1.5px solid grey;
     margin-right: 10px;
     float: left;
     }

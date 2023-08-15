@@ -2,11 +2,12 @@ import React from 'react';
 import './Item.css';
 
 
+
 const Item = ({ item, children }) => (
 <div className="Item">
   <div className="Item-left">
     <div className="Item-image">
-     <img src={item.src}/>
+     <img className="imge" src={item.imageSrc}/>
     </div>   
     <div className="Item-title">
      {item.name}
